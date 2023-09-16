@@ -1,7 +1,7 @@
 # Colony Counting
 
 ## Goal of the Project
-This program processes images of Petri dishes to make it easy to count the number of colonies present inside using Hough Transform.
+This program processes images of Petri dishes to highlight colonies present inside.
 
 First, the petri disk is isolated from the rest of the images, then the following Petri dish agars are used and they are divided into the type of strategy employed:
 
@@ -15,17 +15,17 @@ First, the petri disk is isolated from the rest of the images, then the followin
 
 ### Set-up
 Install the following libraries for image processing:
-'import cv2
+'''import cv2
 import numpy as np
 import skimage.filters import try_all_threshold
 from skimage.restoration import inpaint
 import math
-import matplotlib.pyplot as plt'
+import matplotlib.pyplot as plt'''
 
 The following is for exploring the image directory
-'import os
-import glob'
+'''import os
+import glob'''
 
 ### Start the program
-Type 'python main.py' to start the program and choose the image and the respective agar employed to calculate the number of colonies in a petri dish. 
+Type '''python main.py''' to start the program and choose the image and the respective agar employed to calculate the number of colonies in a petri dish. 
 
