@@ -15,7 +15,8 @@ First, the petri disk is isolated from the rest of the images, then the followin
 
 ### Set-up
 Install the following libraries for image processing:
-'''import cv2
+''' python
+import cv2
 import numpy as np
 import skimage.filters import try_all_threshold
 from skimage.restoration import inpaint
@@ -23,9 +24,10 @@ import math
 import matplotlib.pyplot as plt'''
 
 The following is for exploring the image directory
-'''import os
+''' python
+import os
 import glob'''
 
 ### Start the program
-Type '''python main.py''' to start the program and choose the image and the respective agar employed to calculate the number of colonies in a petri dish. 
+Type '''python python main.py''' to start the program and choose the image and the respective agar employed to calculate the number of colonies in a petri dish. 
 
