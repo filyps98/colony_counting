@@ -1,7 +1,7 @@
 # Colony Counting
 
 ## Goal of the Project
-This program processes images of Petri dishes to highlight colonies present inside.
+This program processes images of Petri dishes to highlight bacterial colonies present inside.
 
 First, the petri disk is isolated from the rest of the images, then the following Petri dish agars are used and they are divided into the type of strategy employed:
 
@@ -32,5 +32,5 @@ Type
 ```
 python main.py
 ```
-to start the program and choose the image and the respective agar employed to calculate the number of colonies in a petri dish. 
+to start the program and choose the image and the respective agar employed to process the petri dish images to facilitate counting. 
 
